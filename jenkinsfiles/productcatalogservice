@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/chimdi247/11-mcroservice-ecom-k8s.git'
+                git branch: 'master', url: 'https://github.com/chimdi247/11-microservice-ecom-k8s.git'
             }
         }
         stage("Docker Image Build") {
