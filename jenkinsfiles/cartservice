@@ -41,7 +41,7 @@ pipeline {
         }
         stage('Update Deployment file') {
             environment {
-                GIT_REPO_NAME = "Microservices-E-Commerce-eks-project"
+                GIT_REPO_NAME = "11-microservice-ecom-k8s"
                 GIT_EMAIL = "chimdi247@gmail.com"
                 GIT_USER_NAME = "chimdi247"
                 IMAGE_NAME = "cartservice"
